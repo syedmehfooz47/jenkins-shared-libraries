@@ -5,10 +5,8 @@ def call(Map config = [:]) {
     
     echo "Generating build report..."
     
-    // Create directory for reports
     sh "mkdir -p reports"
     
-    // Generate report
     sh """
         echo "===== ${projectName} Build Report =====" > reports/build-report.txt
         echo "Generated: \$(date)" >> reports/build-report.txt
@@ -20,6 +18,5 @@ def call(Map config = [:]) {
         echo "Build URL: ${env.BUILD_URL}" >> reports/build-report.txt
     """
     
-    // Archive the report
     archiveArtifacts artifacts: 'reports/*', allowEmptyArchive: true
 }
