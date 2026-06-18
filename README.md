@@ -13,14 +13,14 @@
 
 - Login to your Jenkins dashboard. <a href="">Jenkins Installation</a>
 - Go to **Manage Jenkins** --> **System** and search for **Global Trusted Pipeline Libraries**.
-<img src="https://github.com/syedmehfooz47/jenkins-shared-libraries/blob/main/assests/config1.png" />
+<img src="https://github.com/syedmehfooz47/jenkins-shared-libraries/blob/main/assets/config1.png" />
 
   **Name:** Shared <br>
   **Default version:** \<branch name><br>
   **Project repository:** <https://github.com/syedmehfooz47/jenkins-shared-libraries.git> <br>
 
 ****
-<img src="https://github.com/syedmehfooz47/jenkins-shared-libraries/blob/main/assests/config2.png" />
+<img src="https://github.com/syedmehfooz47/jenkins-shared-libraries/blob/main/assets/config2.png" />
 
 #
 
@@ -28,7 +28,7 @@
 
 - Go to your declarative pipeline
 - Add **@Library('Shared') _** at the very first line of your jenkins pipeline.
-<img src="https://github.com/syedmehfooz47/jenkins-shared-libraries/blob/main/assests/pipeline.png" />
+<img src="https://github.com/syedmehfooz47/jenkins-shared-libraries/blob/main/assets/pipeline.png" />
 
 **Note:** @Library() _ is the syntax to use shared library.
 
