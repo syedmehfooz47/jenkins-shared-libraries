@@ -11,7 +11,7 @@
 
 ### How to create Shared library
 
-- Login to your Jenkins dashboard. <a href="">Jenkins Installation</a>
+- Login to your Jenkins dashboard. <a href="https://github.com/syedmehfooz47/jenkins-shared-libraries/tree/main#jenkins">Jenkins Installation</a>
 - Go to **Manage Jenkins** --> **System** and search for **Global Trusted Pipeline Libraries**.
 <img src="https://github.com/syedmehfooz47/jenkins-shared-libraries/blob/main/assets/config1.png" />
 
